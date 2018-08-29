@@ -16,4 +16,8 @@
     <dubbo:service interface="com.zh.dubbo.demo.DemoService" ref="demoService" protocol="dubbo" />
     <!--具体实现该接口的 bean-->
     <bean id="demoService" class="com.zh.dubbo.demo.impl.DemoServiceImpl"/>
+
+    <dubbo:service interface="com.zh.dubbo.demo.Demo1Service" ref="demo1Service" protocol="dubbo" />
+    <!--具体实现该接口的 bean-->
+    <bean id="demo1Service" class="com.zh.dubbo.demo.impl.Demo1ServiceImpl"/>
 </beans>

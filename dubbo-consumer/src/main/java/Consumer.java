@@ -1,3 +1,4 @@
+import com.zh.dubbo.demo.Demo1Service;
 import com.zh.dubbo.demo.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -20,8 +21,11 @@ public class Consumer {
                 new ClassPathXmlApplicationContext("consumer.xml");
         context.start();
         System.out.println("consumer start");
-        DemoService demoService = context.getBean(DemoService.class);
+        //DemoService demoService = context.getBean(DemoService.class);
         System.out.println("consumer");
-        System.out.println(demoService.getPermissions(1L));
+        //System.out.println(demoService.getPermissions(1L));
+        Demo1Service demo1Service = context.getBean(Demo1Service.class);
+        System.out.println("consumer");
+        System.out.println(demo1Service.sayHello("hello word"));
     }
 }
