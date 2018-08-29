@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$USER_HOME$/Downloads/package-test/package-test" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Downloads/package-test/package-test/dubbo-api" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Downloads/package-test/package-test/dubbo-service" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Downloads/package-test/package-test/dubbo-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-consumer" charset="UTF-8" />
